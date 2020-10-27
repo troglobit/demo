@@ -1,4 +1,7 @@
-             k;double sin()
+#include <stdio.h>
+#include <string.h>
+
+           int k;double sin()
          ,cos();main(){float A=
        0,B=0,i,j,z[1760];char b[
      1760];printf("\x1b[2J");for(;;
@@ -12,7 +15,7 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
 +t*m),o=x+80*y,          N=8*((f*e-c*d*g
  )*m-c*d*e-f*g-l        *d*n);if(22>y&&
  y>0&&x>0&&80>x&&D>z[o]){z[o]=D;;;b[o]=
- ".,-~:;=!*#$@"[N>0?N:0];}}/*#****!!-*/
+".,-~:;=!*#$@"[N>0?N:0];}}usleep(10000);
   printf("\x1b[H");for(k=0;1761>k;k++)
    putchar(k%80?b[k]:10);A+=0.04;B+=
      0.02;}}/*****####*******!!=;:~
