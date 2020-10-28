@@ -1,10 +1,11 @@
+EXEC   = fire
 CFLAGS = -Wno-implicit-int -Wno-implicit-function-declaration
 LDLIBS = -lm
 
-all: fire
+all: $(EXEC)
 
 clean:
-	$(RM) fire
+	$(RM) $(EXEC)
 
 distclean: clean
 	$(RM) *.o *~

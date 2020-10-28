@@ -1,10 +1,11 @@
+EXEC   = donut
 CFLAGS = -Wno-implicit-int -Wno-implicit-function-declaration
 LDLIBS = -lm
 
-all: donut
+all: $(EXEC)
 
 clean:
-	$(RM) donut
+	$(RM) $(EXEC)
 
 distclean: clean
 	$(RM) *.o *~

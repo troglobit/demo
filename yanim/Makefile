@@ -1,10 +1,11 @@
+EXEC   = yanim
 CFLAGS = -Wno-implicit-int -Wno-implicit-function-declaration
 LDLIBS = -lm
 
-all: yanim
+all: $(EXEC)
 
 clean:
-	$(RM) yanim
+	$(RM) $(EXEC)
 
 distclean: clean
 	$(RM) *.o *~
