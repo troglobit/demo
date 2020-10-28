@@ -1,3 +1,8 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <math.h>
+int
+
 c,p,i,j,n,F=40,k,m;float a,x,y,S=0,V=0;main(){for(;F--;usleep(50000),F?puts(
 "\x1b[25A"):0)for(S+=V+=(1-S)/10-V/4,j=0;j<72;j+=3,putchar(10))for(i=0;x=S*(
 i-27),i++<73;putchar(c[" ''\".$u$"]))for(c=0,n=3;n--;)for(y=S*(j+n-36),k=0,c
