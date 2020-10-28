@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+#define  DLY usleep(10000);
+int
+
 _,x,y,o       ,N;char       b[1840]       ;p(n,c)
 {for(;n       --;x++)       c==10?y       +=80,x=
 o-1:x>=       0?80>x?       c!='~'?       b[y+x]=
@@ -26,7 +31,7 @@ puts(""  "\x1b[2J");;;      for(;; ){float e=sin
 ),y=12+       D  *(l*h*n+t*m),o=x+80*y,N  =8*((f*
 e-c*d*g       )*m   -c*d*e-f*g-l*d*n)     ;if(D>z
 [o])z[o       ]=D,b[     o]=" ."          ".,,-+"
-       "+=#$@"       [N>0?N:       0];;;;}       printf(
+       "+=#$@"       [N>0?N:       0];}DLY       printf(
        "%c[H",       27);for       (k=1;18       *100+41
        >k;k++)       putchar       (k%80?b       [k]:10)
        ;;;;A+=       0.053;;       B+=0.03       ;;;;;}}
